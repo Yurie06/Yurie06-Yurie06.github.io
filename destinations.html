@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="css/mini.style.css"/>
+        <title>Travel Life</title>
+        <script src="https://kit.fontawesome.com/cbafcce6af.js" crossorigin="anonymous"></script>
+</head>
+    
+<body>
+<div id="sub-header">
+    <div class="container">
+        <nav>
+            <img src="images/Home/Screenshot_2.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html">Destination</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Log In</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <h1>Top Destination</h1>
+    </div> 
+</div>
+
+<section class="packages">
+
+        <div class="box-container">
+            <div class="box">
+                <div class="image">
+                    <img src="images/Destination/united-arab-emirates-in-pictures-beautiful-places-to-photograph-the-palm-jumeirah.jpg" alt="">
+                    <div class="content">
+                        <h3>Andventure & Tour</h3>
+                        <p>Enjoy the place</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right = "0";
+}
+    function closemenu(){
+        sidemenu.style.right = "-300px";
+}
+
+</script>
+
+    </body>
+</html>
