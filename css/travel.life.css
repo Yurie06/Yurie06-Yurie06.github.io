@@ -61,6 +61,7 @@ nav  {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    text-shadow: 1px 1px 2px orange;
 }
 
 .logo {
@@ -80,8 +81,7 @@ nav  {
 nav ul li {
     display: inline-block;
     list-style: none;
-    margin: 10px 2px;
-    padding: 25px;
+
 }
 nav ul li a {
     color: white;
